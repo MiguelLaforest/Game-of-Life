@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel app/index.html",
+    "devopen": "parcel app/index.html -p 8080 --open",
+    "build": "parcel build app/index.html --public-url ./ -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "sass": "^1.22.7",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "modules": "^0.4.0",
+    "scripts": "^0.1.0",
+    "tslib": "^1.10.0"
+  }
+}
